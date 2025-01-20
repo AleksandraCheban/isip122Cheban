@@ -6,8 +6,20 @@
         xmlns:local="clr-namespace:isip122Cheban"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Image HorizontalAlignment="Left" Height="100" Margin="456,49,0,0" VerticalAlignment="Top" Width="100"/>
+    <Grid Background="LightGray">
+        <Image Margin="176,53,286,275" Source="/Image2.png" Stretch="Fill"/>
+        <TextBox x:Name="TextBoxX" HorizontalAlignment="Left" Margin="194,176,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" />
+        <TextBox x:Name="TextBoxY" HorizontalAlignment="Left" Margin="194,199,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="176,178,0,0" TextWrapping="Wrap" Text="X" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="176,200,0,0" TextWrapping="Wrap" Text="Y" VerticalAlignment="Top"/>
+        <RadioButton x:Name="sh" Content="sh(x)" HorizontalAlignment="Left" Margin="176,222,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="x2" Content="x^2" HorizontalAlignment="Left" Margin="176,237,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="e2" Content="e^x" HorizontalAlignment="Left" Margin="176,252,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="176,272,0,0" TextWrapping="Wrap" Text="Ответ: " VerticalAlignment="Top"/>
+        <TextBox x:Name="answer" HorizontalAlignment="Left" Margin="218,272,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="96" Height="22"/>
+        <Button x:Name="ButtonСalculate" Content="  Вычислить  " HorizontalAlignment="Left" Margin="317,220,0,0" VerticalAlignment="Top" />
+        <Button x:Name="ButtonClear" Content="  Очистить    " HorizontalAlignment="Left" Margin="317,247,0,0" VerticalAlignment="Top"/>
+        
 
     </Grid>
 </Window>
